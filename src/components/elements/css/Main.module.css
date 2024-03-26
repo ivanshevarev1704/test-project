@@ -1,0 +1,50 @@
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.wrapper {
+  position: relative;
+  display: flex;
+  min-height: 514px;
+}
+.wrapper .main {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.wrapper .main::before {
+  content: "";
+  background-image: linear-gradient(to right, #0f1011, transparent);
+  width: 150%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapper .info {
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  padding: 5rem 0 5rem 1rem;
+}
+.wrapper .info .additional {
+  display: flex;
+  align-items: center;
+  color: #9b9a97;
+  margin: 1rem 0 2rem;
+}
+.wrapper .info .additional > span {
+  margin-right: 1rem;
+  font-size: 18px;
+}
+.wrapper .info .description {
+  font-size: 18px;
+  color: #9b9a97;
+  margin-bottom: 3rem;
+  line-height: 1.65;
+}/*# sourceMappingURL=Main.module.css.map */

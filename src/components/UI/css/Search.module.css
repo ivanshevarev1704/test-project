@@ -1,0 +1,38 @@
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.search {
+  margin-left: 8rem;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #000;
+  border: 1px solid rgba(155, 154, 151, 0.4);
+  padding: 0.5rem 1rem;
+}
+.search > div {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  margin-left: 0.5rem;
+  border: none;
+}
+.search input::-moz-placeholder {
+  color: #9b9a97;
+}
+.search input::placeholder {
+  color: #9b9a97;
+}
+.search i {
+  color: #9b9a97;
+  font-size: 20px;
+}/*# sourceMappingURL=Search.module.css.map */
